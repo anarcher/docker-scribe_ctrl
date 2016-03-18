@@ -1,0 +1,4 @@
+- scribe_ctrl: A simple script for running and monitoring scribe.
+- From: https://github.com/facebookarchive/scribe/blob/master/examples/scribe_ctrl
+- Docker image: docker pull anarcher/scribe_ctrl
+- docker run -it --rm --net=host anarcher/scribe_ctrl [alive] [reload] [status]...
